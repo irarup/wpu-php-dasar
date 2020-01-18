@@ -1,0 +1,65 @@
+## ALASAN BELAJAR PHP
+	- PHP relatif mudah dipelajari, bahasanya simple dan to the point.
+		contoh java :
+			class hello {
+				public static void main ( String args[]){
+					system.out.print("Hello Word");
+				}
+			}
+		Tapi php cukup dengan menuliskan :
+			<? print "Hello Word"; ?>
+	- Untuk memahami PHP hanya perlu belajar HTML + CSS
+	- PHP itu gratis/open source
+	- Komunitas PHP sangat besar
+	- Dokumentasi sangat lengkap, php.net/manual
+	- Bahasa khusus untuk membuat website
+	- Kebanyakan website yang paling banyak di internet menggunakan php
+	- Banyak website besar dibuat dengan php contoh : facebook, wikipidea
+	- CMS yang bagus di buat dengan PHP contoh (wordpress, joomlaa, drupal, moodle)
+	- Banyak frame work PHP (Code Igniter, Laravel, Yii, Cake PHP, Symfony)
+
+##  SEJARAH
+	- Diciptakan oleh Rasmus Lerdolf (https://id.wikipedia.org/wiki/Rasmus_Lerdorf)
+	- PHP/FE (Personal Home Page/Form Entrepreter) dari bahasa C awalnya dibuat untuk mengelola website pribadinya
+	- Tahun 1995 dibuat bisa digunakan orang lain yaitu PHP v1
+	- 1997 dibuat PHP v2
+	- Tahun 1998 bergabung 2 orang untuk ikut mengembangkan PHP 3, yaitu
+			- Zeev Suraski & Andi Gutsman
+			- Dengan mendirikan Zend Technology
+			- Yang berjasa membuat parser di dalam PHP yang berfungsi membaca syntax yang dibuat
+			- PHP berubah nama menjadi PHP: Hypertext Preprocessor
+	- Tahun 2000 PHP 4, sudah ada Zend Engine sebagai entrepreter
+	- Tahun 2004 PHP5
+			- Update-an terbesar
+			- Zend 2 banyak liblary yang dibanyak
+			- OOP
+			- PHP Data Object (PDO)
+	- PHP 6 tadinya ditunda lalu di batalkan, tadinya digunakan untuk unicode. Maksudnya PHP ingin bisa menggunakan selain huruf 
+	  latin, namun bisa menggunakan huruf lainnya contohnya huruf kanji
+	- 2010 diluncurkan PHP 5.4
+	- 2014 PHP 7 sampai sekarang masih PHP 7
+			- Zend Engine 3 peformanya lebih cepan
+	- Icon PHP adalah elePHPant (diciptakan oleh Vincent Pontier)
+
+## Karekteristik PHP
+	- Eksensi file harus *.php
+	- Harus di tulis didalam the limiter -> <? ?>
+	- bisa menulis PHP bersamaan dengan HTML
+	- Mengikuti kahidah bahasa C
+
+## Persiapan LIngkungan Pengembangan
+	- CLient Side Scripting semua pemograman di proses di komputer client (HTML, Javascript, Css)
+	- Server Side Scripting diporses di server (PHP, Asp, Ruby, Phyton)
+	- Yang dibutuhkan :
+		- Text Editor
+		- Web Browser
+		- Web server (Apache)
+		- Bahasa pemograman PHP
+		- Database MySQL
+	- Install All-in-one pekage atau bundle program
+		- Xampp (Cross Platform Apache MariaDB PHP Perl)
+		- Mamp (Maxintos Apache MySQL PHP)
+		- Wamp (Windows Apache MySQL PHP)
+		- Lamp (Linux Apache MySQL PHP)
+
+	
