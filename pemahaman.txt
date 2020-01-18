@@ -62,4 +62,115 @@
 		- Wamp (Windows Apache MySQL PHP)
 		- Lamp (Linux Apache MySQL PHP)
 
+---------------------------------------------------------------------------------------------------------------------
+Materi Video
+
+## PERTEMUAN 2
+	// Code komentar
+		/*	Ini Comentar lebih dari
+			satu baris
+		*/
+
+		// UNTUK MENCETAK KE BROWSER
+			/*
+				echo "string";
+				print "string";
+				print_r(array/string);
+				var_dump(array);
+			*/
+	// Oprator
+			// Aritmatika + - = * / %
+			// Oprator penggabung string concatenation/concat . (titik)
+			// Oprator assigment atau oprator penugasan =, +=,*=, -=, /=, %=, .=
+			// Oprotor perbandingan <, >, <=, >=, ==, !=
+			// Oprator identitas ===, !==
+			// Oprator Logika &&, ||, !
+
+## PERTEMUAN 3
+	// CONTROL FLOW adalah bagaimana alur pembacaan program ketika di esekusi
+		// Pengkondisian if..else, if..else if..else, ternary, switch
+		// CONTROL FLOW adalah bagaimana alur pembacaan program ketika di esekusi
+		// Pengulangan for, while, do while, foreach
+
+		//PENGULANGAN FOR
+			// Yang ada didalam FOR -> inisalisasi, kondisi/terminasi, increment/decrement
+				for($i; $i < int; $i++){}
+
+## PERTEMUAN 4
+	// Function adalah potongan pogram atau baris code yang dapat di ulang
+		// built in function fungsi bawaan php cek https://www.php.net/manual/en/funcref.php
+		// User definition function adalah fungsi yang didefinisikan oleh user
 	
+	// BUILTIN FUNCTION
+		/*function Date
+			date(format);
+			time();
+			mktime();
+			strtotime();
+		*/
+
+		/*Function string
+			strlen(); -> menghitung banyaknya string
+			strcmp(); -> mengabungkan dua string
+			explode(delimiter, string); -> memecag string menjadi array
+			htmlspecialchars(string); -> menjaga dari orang iseng/ hacker
+
+		fungction utility
+			var_dump(expression);
+			isset(var); -> mengecek apakah sebuah vriabel sudah dibuat atau belum
+			empty(var); -> apakah variabel yang ada apakah kosong atau tidak
+			die(); -> memberhentikan pogram
+			sleep(seconds); -> untuk berhenti sementara
+
+		*/
+
+## PERTEMUAN 5 + 6
+	// ARRAY NUMERIK key nya berupa angka
+		// Penulisan Array cara Lama
+			$array  = array("ira", "lukman", 11);
+
+		// Cara Baru
+			$angka = [1, 2,5, 6, 7, 10];
+			// menambah data
+				$array[] = "April";
+				$array[] = 2016;
+
+		// Menampilkan array
+			var_dump($array);
+			print_array($array);
+			for();
+			foreach();
+	// ARRAY ASOSIATIVE key nya berupa string
+		$data = [
+ 			[
+ 				"nama" => "Ira Rupaida",
+ 				"alamat" => "Bandung",
+ 				"ttl" => "1997-10-15"
+ 			],
+ 			[
+ 				"nama" => "Lukman Hakim",
+ 				"alamat" => "Ciamis",
+ 				"ttl" => "1996-06-06"
+ 			],
+ 		];
+
+## PERTEMUAN 7
+	// Variabel Scope atau lingkup variabel
+		#Lokal hanya didalam file atau hanya dalam function
+		#Global mencari variabel yang ada diluar function
+		#Super Global variabel yang sudah dimiliki php yang dapat diakses dimanapun dan kapanpun
+			//Variabel super global semua typenya array assosiatif
+				- $_GET
+				- $_POST
+				- $_REQUEST
+				- $_SESSION
+				- $_COOKIE
+				- $_SERVER
+				- $_ENV
+ 
+	// $_GET
+	// $_POST
+
+## DATABASE dan MYSQL
+	- Data adalah interprestasi kejadiandidunia nyata
+	- 
